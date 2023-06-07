@@ -1,0 +1,49 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Сайт</title>
+<style>
+    body {
+     background: #655e6825; /* Цвет фона */
+     color: rgb(0, 0, 0); /* Цвет текста */
+    }
+   </style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="blok-menu">
+<ul class="menu">
+	<li><a href="index.html">FAQ</a></li>
+	<li><a href="work.html">Наши работы</a></li>
+	<li><a href="feedback.html">Отзывы</a></li>
+	<li><a href="price.html">Прайс</a></li>
+	<li><a href="contact.html">Контакты</a></li>
+</ul>
+</div>
+<div class="logo">
+<img src="image/logo.png" >
+</div>
+<div class="content">
+<h2>Отзывы</h2>
+<p>Тут значит подробные радостные отзывы наших клиентов</p>
+<p>Здесь остальные отзывы</p>
+
+
+	<form name="form" action="mail.php" method="post" id="form_message">
+		<h2>Форма обратной связи.</h2>
+		<p> <div class="titles">Ваше имя</div> <input class="input" name="name" type="text"/> </p>
+		 
+		<p> <div class="titles">Электронная почта</div> <input class="input" name="email" type="text"/> </p>
+		 
+		<p> <div class="titles">Тема сообщения</div> <input class="input" name="subjects" type="text"/> </p>
+		 
+		<p> <div class="titles">Текст сообщения:</div><textarea name="message" cols="22" rows="5" /></textarea></p>
+		<p><input id="submit" value="Отправить" type="submit" /></p>
+	</form>
+</div>
+<div class="footer">
+<p><a href="https://vk.com/arusachev">Super Company</a> © 2023</p>
+</div>
+</body>
+</html>
